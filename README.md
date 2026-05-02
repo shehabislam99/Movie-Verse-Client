@@ -41,7 +41,6 @@ List required dependencies or major libraries:
   "tailwindcss": "^4.1.17",
   "firebase": "^12.5.0"
 }
-```
 
 ---
 
@@ -52,7 +51,7 @@ List required dependencies or major libraries:
 git clone https://github.com/<your-org>/movie-verse-client
 cd Movie-Verse-Client
 npm install
-```
+
 
 2. Create a `.env` file with the Vite/Firebase vars the app expects:
 
@@ -72,13 +71,13 @@ VITE_appId=XXX
 ```bash
 npm run dev      # local development
 npm run build    # production bundle (output lands in /dist for Firebase Hosting)
-```
+
 
 4. (Optional) Deploy the client via Firebase Hosting:
 
 ```bash
 firebase deploy
-```
+
 
 ---
 
